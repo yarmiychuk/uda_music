@@ -1,0 +1,23 @@
+<resources>
+
+    <string name="app_name">Music Player</string>
+
+    <!-- Content descriptions -->
+    <string name="album_cover_description">Cover of the music album</string>
+
+    <!-- Permission -->
+    <string name="permission_title">The app needs permission.</string>
+    <string name="permission_message">The application needs permission to read media files. Click here to provide this permission.</string>
+    <string name="permission_required">To grant permission, you need to go to the device settings, and find the application in the list.</string>
+    <string name="okay">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Menu -->
+    <string name="label_tracks">Tracks</string>
+    <string name="label_artists">Artists</string>
+
+    <string name="no_files_found">No files found</string>
+    <string name="something_wrong">Something went wrong</string>
+    <string name="number_of_tracks">Number of tracks:</string>
+
+</resources>

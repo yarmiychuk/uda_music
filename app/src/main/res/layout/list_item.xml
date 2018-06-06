@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"
+    android:padding="@dimen/standard_padding">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/ItemTextView"
+        android:textSize="@dimen/title_text_size"
+        tools:text="Track name" />
+
+    <TextView
+        android:id="@+id/tv_subtitle"
+        style="@style/ItemTextView"
+        android:textColor="@color/colorLightGray"
+        android:textSize="@dimen/subtitle_text_size"
+        tools:text="Artist name" />
+
+</LinearLayout>
