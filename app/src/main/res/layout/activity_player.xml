@@ -7,15 +7,34 @@
     android:orientation="vertical"
     tools:context=".activities.MainActivity">
 
-    <ImageView
-        android:id="@+id/iv_album_cover"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="@color/colorGrayTransparent"
-        android:contentDescription="@string/album_cover_description"
-        android:scaleType="centerInside"
-        android:src="@drawable/cd_image" />
+        android:layout_weight="1">
+
+        <ImageView
+            android:id="@+id/iv_album_cover"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorGrayTransparent"
+            android:contentDescription="@string/album_cover_description"
+            android:scaleType="centerInside"
+            android:src="@drawable/cd_image" />
+
+        <Button
+            android:id="@+id/button_play"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="@dimen/button_height"
+            android:layout_alignParentBottom="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/button_margin"
+            android:background="@drawable/button_background"
+            android:text="@string/play"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/button_text_size" />
+
+    </RelativeLayout>
+
 
     <LinearLayout
         android:layout_width="match_parent"
